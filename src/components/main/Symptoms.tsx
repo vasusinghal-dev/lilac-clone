@@ -6,11 +6,11 @@ import { useInView } from "../../lib/useInView";
 import { stagger } from "../../lib/utility";
 
 const points = [
-  "Persistent feelings of sadness or hopelessness",
-  "Trouble focusing or making decisions",
-  "Difficulty maintaining relationships",
-  "Feeling constantly exhausted or unmotivated",
-  "A pervasive sense of being overwhelmed",
+  "Constant worry, racing thoughts, or feeling on edge",
+  "Panic attacks or tension in your body",
+  "Trouble sleeping because your mind won’t slow down",
+  "Feeling exhausted or burned out from work pressure",
+  "Past experiences still affecting your confidence or relationships",
 ];
 
 export default function Symptoms() {
@@ -46,18 +46,14 @@ export default function Symptoms() {
               <h1
                 className={`text-3xl sm:text-4xl lg:text-[52px] 2xl:text-[65px] font-medium mb-4 lg:mb-8 2xl:mb-12 ${fadeInUp}`}
               >
-                You don’t have to do this all alone.
+                You don’t have to handle this alone.
               </h1>
 
               <p
                 className={`text-base sm:text-lg lg:text-[18px] 2xl:text-[21px] mb-8 lg:mb-10 2xl:mb-14 ${fadeIn}`}
-                style={
-                  {
-                    "--animation-delay": "0.05s",
-                  } as React.CSSProperties
-                }
+                style={{ "--animation-delay": "0.05s" } as React.CSSProperties}
               >
-                If you are facing any of these, there’s hope:
+                Therapy can help if you’re experiencing things like:
               </p>
 
               <ul className="ml-5 mb-10 lg:mb-16 2xl:mb-22">
@@ -77,14 +73,11 @@ export default function Symptoms() {
 
               <p
                 className={`text-base sm:text-lg lg:text-[18px] 2xl:text-[21px] ${fadeIn}`}
-                style={
-                  {
-                    "--animation-delay": "0.35s",
-                  } as React.CSSProperties
-                }
+                style={{ "--animation-delay": "0.35s" } as React.CSSProperties}
               >
-                With empathy and guidance, we&apos;ll work together to navigate
-                the challenges life throws your way.
+                Dr. Maya Reynolds offers a calm, supportive space in Santa
+                Monica to understand what you’re going through and learn ways to
+                feel better.
               </p>
             </div>
           </div>
@@ -93,7 +86,9 @@ export default function Symptoms() {
             href="/contact"
             className="px-4 py-5 lg:py-7 2xl:py-8 w-full btn btn-primary gap-0 border-t"
           >
-            <span className="text-[13.5px] font-medium">WORK WITH ME</span>
+            <span className="text-[13.5px] font-medium">
+              BOOK A FREE CONSULTATION
+            </span>
             <svg
               width="24"
               height="24"

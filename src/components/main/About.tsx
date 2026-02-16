@@ -22,16 +22,18 @@ export default function About() {
               <h1
                 className={`text-3xl sm:text-4xl lg:text-[52px] 2xl:text-[65px] font-medium mb-4 lg:mb-6 2xl:mb-8.5 ${fadeInUp}`}
               >
-                Hi, I’m Lilac.
+                Hi, I’m Dr. Maya Reynolds.
               </h1>
 
               <p
                 className={`text-base sm:text-lg lg:text-[18px] 2xl:text-[21px] ${fadeIn}`}
               >
-                I&apos;m committed to providing a safe and supportive
-                environment where we can explore your thoughts, feelings, and
-                behaviors. With empathy and guidance, we&apos;ll work together
-                to navigate the challenges life throws your way.
+                I’m a licensed clinical psychologist in Santa Monica,
+                California. I work with adults who feel overwhelmed by anxiety,
+                burnout, or the effects of past experiences. My approach is
+                warm, supportive, and practical, using methods like CBT, EMDR,
+                and mindfulness to help you understand what you’re going through
+                and feel more steady in your daily life.
               </p>
             </div>
 
@@ -40,7 +42,7 @@ export default function About() {
               className={`px-5 py-2.5 btn btn-primary gap-1 border ${fadeInUp}`}
             >
               <span className="text-[13.5px] font-medium ml-2">
-                LET&apos;S CHAT
+                BOOK A FREE CONSULTATION
               </span>
               <svg
                 width="24"
@@ -66,7 +68,7 @@ export default function About() {
             >
               <Image
                 src="https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/9a77a6f2-1c50-4582-a5c1-5ec0dc2e94e8/daiga-ellaby-Ct6LBZHaOSc-unsplash.jpg?format=2500w"
-                alt="Hero image"
+                alt="Dr. Maya Reynolds therapy office in Santa Monica"
                 width={780}
                 height={1050}
                 className="w-full h-auto rounded-t-full"

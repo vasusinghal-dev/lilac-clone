@@ -1,7 +1,6 @@
 "use client";
 
 import { useInView } from "@/src/lib/useInView";
-import Image from "next/image";
 
 export default function BookAppointment() {
   const { ref, isVisible } = useInView();
@@ -35,14 +34,14 @@ export default function BookAppointment() {
             leading-tight
            ${fadeInUp}`}
           >
-            Book an appointment.
+            Schedule your first session.
           </h2>
 
           <p className="text-base sm:text-lg lg:text-xl 2xl:text-[21px] text-center lg:text-left">
-            Add some text here if you like, and add your scheduling widget below
-            (you can get one by signing up for a scheduling account through
-            Squarespace, the top-tier plan is HIPAA compliant OR you can use
-            your client portal).
+            Dr. Maya Reynolds offers in-person therapy in Santa Monica, CA and
+            secure telehealth sessions for clients across California. Reach out
+            to schedule your first appointment or ask any questions about
+            getting started.
           </p>
         </div>
 
@@ -60,41 +59,21 @@ export default function BookAppointment() {
         >
           <div className={`px-4 sm:px-6.5 text-center ${fadeIn}`}>
             <p className="text-dark font-bold text-xl sm:text-2xl 2xl:text-[26px]">
-              This page is not active
+              Appointments Available
             </p>
 
             <p className="text-dark text-sm my-4 sm:my-5">
-              If you&apos;re the owner, please log into your account to start a
-              free trial or subscribe.
+              Contact Dr. Maya Reynolds to schedule your first session or a
+              brief consultation to see if therapy is a good fit.
             </p>
 
             <a
-              href="https://login.squarespace.com"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/contact"
               className="inline-block bg-dark text-white px-4 py-3.5 font-bold text-xs mt-4"
             >
-              GO TO ACCOUNT
+              BOOK A FREE CONSULTATION
             </a>
           </div>
-        </div>
-
-        <div className={`text-center my-8 sm:my-10 ${fadeIn}`}>
-          <a
-            href="https://www.acuityscheduling.com/?utm_campaign=acuity&utm_medium=referral&utm_source=scheduling"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block"
-          >
-            <div className="relative w-32 sm:w-40 lg:w-42 h-10 sm:h-12 mx-auto">
-              <Image
-                alt="Powered By Acuity Scheduling"
-                src="https://app.squarespacescheduling.com/img/brand/logo-powered-by-acuity.png"
-                fill
-                className="object-contain"
-              />
-            </div>
-          </a>
         </div>
       </div>
     </section>

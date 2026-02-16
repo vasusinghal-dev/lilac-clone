@@ -34,17 +34,18 @@ export default function Subscribe() {
             mb-3
           ${fadeInUp}`}
           >
-            Subscribe
+            Helpful tips for anxiety and burnout
           </h2>
 
           <p
             className={`
-            mb-6 sm:mb-7 lg:mb-8
-            text-base sm:text-lg lg:text-xl
-            2xl:text-[21px]
-           ${fadeIn}`}
+    mb-6 sm:mb-7 lg:mb-8
+    text-base sm:text-lg lg:text-xl
+    2xl:text-[21px]
+   ${fadeIn}`}
           >
-            Sign up with your email address to receive news and updates.
+            Get occasional emails from Dr. Maya Reynolds with simple tips for
+            managing anxiety, burnout, and stress.
           </p>
         </div>
 
@@ -78,7 +79,7 @@ export default function Subscribe() {
             className={`
               px-6 sm:px-7 lg:px-8
               py-4 sm:py-5 lg:py-5.5
-              bg-transparent text-secondary
+              bg-transparent text-[#c2bfcb]
               border border-[#c2bfcb]
               hover:bg-[#c2bfcb] hover:text-black
               transition-colors duration-300
@@ -86,7 +87,7 @@ export default function Subscribe() {
               font-medium tracking-wider
              ${fadeInUp}`}
           >
-            SIGN UP
+            JOIN EMAIL LIST
           </button>
         </form>
 
@@ -97,7 +98,7 @@ export default function Subscribe() {
           mt-8 sm:mt-9 lg:mt-10
         "
         >
-          We respect your privacy.
+          No spam. Just helpful support when you need it.
         </p>
       </div>
     </section>

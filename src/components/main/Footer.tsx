@@ -17,26 +17,26 @@ export default function Footer() {
             style={{ "--animation-delay": "0.4s" } as React.CSSProperties}
           >
             <h3 className="text-3xl sm:text-4xl lg:text-5xl 2xl:text-[52px] font-medium mb-5 lg:mb-6 2xl:mb-7">
-              Lilac Template
+              Dr. Maya Reynolds, PsyD
             </h3>
 
             <div className="text-base sm:text-lg lg:text-[18px] 2xl:text-[21px]">
-              <p>123 Example Road</p>
-              <p>Minneapolis, MN</p>
+              <p>123th Street 45 W</p>
+              <p>Santa Monica, CA 90401</p>
             </div>
 
             <div className="text-base sm:text-lg lg:text-[18px] 2xl:text-[21px] mt-3 flex flex-col items-center lg:items-start gap-1">
               <a
-                href="mailto:email@example.com"
+                href="mailto:contact@mayareynoldstherapy.com"
                 className="underline underline-offset-5 decoration-0"
               >
-                email@example.com
+                contact@mayareynoldstherapy.com
               </a>
               <a
-                href="tel:555-555-5555"
+                href="tel:310-555-0198"
                 className="underline underline-offset-5 decoration-0"
               >
-                (555) 555-5555
+                (310) 555-0198
               </a>
             </div>
           </div>
@@ -47,11 +47,11 @@ export default function Footer() {
           >
             <div>
               <h3 className="text-2xl sm:text-3xl lg:text-[32px] 2xl:text-[40.5px] font-medium mb-5 lg:mb-6 2xl:mb-7">
-                Hours
+                Sessions
               </h3>
               <div className="text-base sm:text-lg lg:text-[18px] 2xl:text-[21px]">
-                <p>Monday – Friday</p>
-                <p>10am – 6pm</p>
+                <p>In-person therapy in Santa Monica</p>
+                <p>Secure telehealth across California</p>
               </div>
             </div>
 
@@ -119,15 +119,7 @@ export default function Footer() {
               </div>
 
               <div className="flex flex-col sm:flex-row items-center gap-x-1 gap-y-2">
-                <span>Website Template Credits:</span>
-                <a
-                  href="https://www.gobloomcreative.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline underline-offset-2 decoration-0 font-medium"
-                >
-                  Go Bloom Creative
-                </a>
+                Serving adults across Santa Monica and California.
               </div>
             </div>
           </div>
@@ -137,7 +129,7 @@ export default function Footer() {
               className={`text-center ${fadeIn}`}
               style={{ "--animation-delay": "0.6s" } as React.CSSProperties}
             >
-              All Rights Reserved © 2024 Your Business Name Here, LLC.
+              © 2026 Dr. Maya Reynolds, PsyD. All rights reserved.
             </span>
           </div>
         </div>

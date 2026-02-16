@@ -7,9 +7,21 @@ import { useInView } from "../../lib/useInView";
 import { stagger } from "../../lib/utility";
 
 const faqs = [
-  { question: "Do you take insurance?", answer: "Answer goes here." },
-  { question: "What are your rates?", answer: "Answer goes here." },
-  { question: "Do you have any openings?", answer: "Answer goes here." },
+  {
+    question: "Do you offer online therapy?",
+    answer:
+      "Yes. Dr. Maya Reynolds offers secure telehealth sessions for clients anywhere in California, as well as in-person sessions in Santa Monica.",
+  },
+  {
+    question: "Who do you work with?",
+    answer:
+      "Dr. Reynolds works with adults who are dealing with anxiety, panic, burnout, or the effects of past experiences. Many of her clients are professionals or creatives who feel overwhelmed by stress.",
+  },
+  {
+    question: "What is therapy like?",
+    answer:
+      "Sessions are warm, calm, and structured. Dr. Reynolds uses approaches like CBT, EMDR, mindfulness, and body-based techniques to help you understand what you’re feeling and find practical ways to feel better.",
+  },
 ];
 
 export default function FAQ() {
@@ -51,7 +63,7 @@ export default function FAQ() {
           className={`order-1 lg:order-1 mx-auto w-full max-w-44 sm:max-w-xs4 lg:max-w-md 2xl:max-w-144.5 ${slideIn}`}
         >
           <Image
-            src="https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/3a7e28f0-28fd-47cd-9857-6c415afed795/myxa69-APKZU4NJcgs-unsplash.jpg?format=2500w"
+            src="https://images.unsplash.com/photo-1533162507191-d90c625b2640?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2FsbXxlbnwwfHwwfHx8MA%3D%3D"
             alt="FAQ image"
             width={578}
             height={868}

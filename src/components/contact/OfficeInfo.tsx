@@ -37,42 +37,42 @@ export default function OfficeInfo() {
               font-medium mb-4 lg:mb-6
              ${fadeInUp}`}
             >
-              My Office
+              A Calm Space for Healing
             </h2>
 
             <address
               className={`not-italic mb-6 lg:mb-8 font-medium leading-relaxed ${fadeIn}`}
             >
               <p className="text-base sm:text-lg lg:text-xl 2xl:text-[21px] mb-1">
-                123 Example Street
+                123th Street 45 W
               </p>
               <p className="text-base sm:text-lg lg:text-xl 2xl:text-[21px]">
-                Minneapolis, MN
+                Santa Monica, CA 90401
               </p>
             </address>
 
             <div className={`font-medium ${fadeIn}`}>
               <h3
                 className="
-                text-2xl sm:text-3xl lg:text-4xl
-                2xl:text-[40px]
-                mb-4 lg:mb-6
-              "
+      text-2xl sm:text-3xl lg:text-4xl
+      2xl:text-[40px]
+      mb-4 lg:mb-6
+    "
               >
-                Hours
+                Sessions Available
               </h3>
 
               <div className="text-base sm:text-lg lg:text-xl 2xl:text-[21px]">
-                <p>Monday – Friday</p>
-                <p>10am – 6pm</p>
+                <p>In-person therapy in Santa Monica</p>
+                <p>Secure telehealth across California</p>
               </div>
             </div>
           </div>
 
           <div className={`relative w-full aspect-934/506 ${fadeIn}`}>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90325.77072132952!2d-93.34400312031309!3d44.970488873642566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b333909377bbbd%3A0x939fc9842f7aee07!2sMinneapolis%2C%20MN%2C%20USA!5e0!3m2!1sen!2sin!4v1771218922334!5m2!1sen!2sin"
-              style={{ border: 0, filter: "grayscale(100%)" }}
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13229.341554353783!2d-118.5153233555013!3d34.009601013997845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2a4ce02caf1cb%3A0x13cfb8fbc0fcfaaf!2sSanta%20Monica%2C%20CA%2090401%2C%20USA!5e0!3m2!1sen!2sin!4v1771239877627!5m2!1sen!2sin"
+              style={{ border: 0, filter: "saturate(0.8) brightness(1.05)" }}
               className="absolute inset-0 w-full h-full"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

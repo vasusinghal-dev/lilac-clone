@@ -37,23 +37,25 @@ export default function LifeSection() {
               <h1
                 className={`text-3xl sm:text-4xl lg:text-[52px] 2xl:text-[65px] font-medium mb-4 lg:mb-6 2xl:mb-9 ${fadeInUp}`}
               >
-                Live a fulfilling life.
+                Feel calmer, clearer, and more like yourself.
               </h1>
 
               <p
                 className={`text-base sm:text-lg lg:text-[18px] 2xl:text-[21px] mb-4 ${fadeIn}`}
                 style={{ "--animation-delay": "0.1s" } as React.CSSProperties}
               >
-                Life can be challenging—especially when you&apos;re trying to
-                balance your personal and professional life.
+                Many adults look like they’re doing fine, but inside they feel
+                anxious, overwhelmed, burned out, or affected by past
+                experiences.
               </p>
 
               <p
                 className={`text-base sm:text-lg lg:text-[18px] 2xl:text-[21px] ${fadeIn}`}
                 style={{ "--animation-delay": "0.1s" } as React.CSSProperties}
               >
-                It&apos;s easy to feel like you&apos;re alone in facing these
-                challenges, but I want you to know that I&apos;m here to help.
+                Therapy with Dr. Maya Reynolds offers a calm, supportive space
+                to talk, understand what’s going on, and learn practical ways to
+                feel better.
               </p>
             </div>
           </div>
@@ -62,7 +64,9 @@ export default function LifeSection() {
             href="/contact"
             className={`px-4 py-4 lg:py-7 2xl:py-8 w-full btn btn-primary gap-0 border-t ${fadeInUp}`}
           >
-            <span className="text-[13.5px] font-medium">GET IN TOUCH</span>
+            <span className="text-[13.5px] font-medium">
+              BOOK A FREE CONSULTATION
+            </span>
             <svg
               width="24"
               height="24"

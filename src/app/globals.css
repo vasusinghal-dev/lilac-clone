@@ -1,21 +1,21 @@
 @import "tailwindcss";
 
 :root {
-  --color-bg-primary: #fbf6f1;
-  --color-bg-secondary: #e5e0da;
-  --color-bg-tertiary: #c2bfcb;
-  --color-bg-accent: #7e7b46;
-  --color-bg-dark: #0e0e0e;
+  --color-bg-primary: #faf8f5;
+  --color-bg-secondary: #eef3f2;
+  --color-bg-tertiary: #dbe6e4;
+  --color-bg-accent: #6b8f8e;
+  --color-bg-dark: #1e2b2a;
 
-  --color-text-primary: #223614;
-  --color-text-secondary: #c2bfcb;
-  --color-text-light: #fbf6f1;
+  --color-text-primary: #1e2b2a;
+  --color-text-secondary: #6b8f8e;
+  --color-text-light: #ffffff;
   --color-text-dark: #0e0e0e;
 }
 
 @theme {
-  --font-family-sans: var(--font-gopher), system-ui, -apple-system, sans-serif;
-  --font-family-helvetica: var(--font-HelveticaNeue), system-ui, sans-serif;
+  --font-family-heading: var(--font-heading), sans-serif;
+  --font-family-body: var(--font-body), system-ui, sans-serif;
 }
 
 @layer base {
@@ -39,9 +39,19 @@
   body {
     background-color: var(--color-bg-primary);
     color: var(--color-text-primary);
-    font-family: var(--font-family-sans);
-    line-height: 1.5;
+    font-family: var(--font-family-body);
+    line-height: 1.6;
     min-height: 100vh;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-family-heading);
+    letter-spacing: -0.01em;
   }
 
   a {

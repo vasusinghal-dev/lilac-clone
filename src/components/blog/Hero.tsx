@@ -53,19 +53,19 @@ export default function Hero() {
               leading-tight
              ${fadeInUp}`}
             >
-              The Lilac Blog
+              Insights on Anxiety, Trauma & Healing
             </h1>
 
             <div className="flex flex-col max-w-md lg:max-w-xl 2xl:max-w-135">
               <p
                 className={`text-base sm:text-lg lg:text-xl 2xl:text-[28px] mb-3 lg:mb-4 ${fadeIn}`}
               >
-                My tiny corner of the internet where I talk about all things
-                healing, heart, and wholeness.
+                Helpful articles from Dr. Maya Reynolds on anxiety, burnout,
+                trauma, and building a calmer, more balanced life.
               </p>
 
               <p className="font-bold text-base sm:text-lg lg:text-xl 2xl:text-[21px]">
-                Glad you’re here.
+                You’re not alone in what you’re going through.
               </p>
             </div>
           </div>

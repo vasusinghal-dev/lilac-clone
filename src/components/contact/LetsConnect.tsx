@@ -42,13 +42,14 @@ export default function LetsConnect() {
             <p
               className={`text-base sm:text-lg lg:text-xl 2xl:text-[21px] ${fadeIn}`}
             >
-              Starting therapy is courageous.
+              Reaching out for therapy can feel like a big step.
             </p>
             <p
               className={`text-base sm:text-lg lg:text-xl 2xl:text-[21px] ${fadeIn}`}
             >
-              Get in touch for questions, or to book a free 15-minute
-              consultation.
+              Contact Dr. Maya Reynolds to ask questions or schedule your first
+              session in Santa Monica or through secure telehealth anywhere in
+              California.
             </p>
 
             <div
@@ -99,12 +100,10 @@ export default function LetsConnect() {
              ${slideIn}`}
           >
             <p className="text-base sm:text-lg lg:text-xl 2xl:text-[21px] text-secondary">
-              <span className="font-semibold">PLEASE NOTE:</span> If you opt to
-              use a &quot;Form Block&quot; on your contact page this is not
-              HIPAA-compliant. Squarespace stores data that is input into forms
-              in the Marketing tab under Profiles. Instead, you can embed a
-              HIPAA-compliant form, a link to your client portal, or simply put
-              your email address.
+              You can reach Dr. Maya Reynolds to schedule an appointment or ask
+              questions about therapy options. In-person sessions are available
+              in Santa Monica, CA, along with secure telehealth sessions across
+              California.
             </p>
           </div>
         </div>

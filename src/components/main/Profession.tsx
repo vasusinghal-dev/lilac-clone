@@ -6,19 +6,19 @@ import { useInView } from "../../lib/useInView";
 
 const credentials = [
   {
-    question: "Education",
+    question: "Licensed Clinical Psychologist",
     answer:
-      "Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea.",
+      "Dr. Maya Reynolds is a licensed clinical psychologist based in Santa Monica, California, providing therapy for adults experiencing anxiety, trauma, panic, and burnout.",
   },
   {
-    question: "Licensure",
+    question: "Therapy Approach",
     answer:
-      "Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea.",
+      "Her work combines evidence-based methods such as cognitive-behavioral therapy (CBT), EMDR, mindfulness practices, and body-oriented techniques to support both emotional and physical healing.",
   },
   {
-    question: "Certifications",
+    question: "Practice Style",
     answer:
-      "Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea.",
+      "Dr. Reynolds takes a warm, collaborative approach to therapy. Sessions are structured enough to feel supportive, while still allowing space for reflection, safety, and meaningful change.",
   },
 ];
 

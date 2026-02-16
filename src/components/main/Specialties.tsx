@@ -5,25 +5,25 @@ import { useInView } from "../../lib/useInView";
 
 const specialties = [
   {
-    title: "Self-Esteem",
+    title: "Anxiety & Panic",
     description:
-      "Building a strong sense of self-worth is key to living a fulfilled life. Let's work together to bolster your self-esteem.",
+      "If you feel constantly worried, tense, or on edge, therapy can help you calm your mind and body and learn ways to manage anxiety in daily life.",
     imageURL:
       "https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/166607b6-21a7-4e30-8c74-9c911c9f33fb/milles-studio-GU-Q4-SQFTg-unsplash.jpg?format=1500w",
   },
   {
-    title: "Relationships",
+    title: "Trauma & Past Experiences",
     description:
-      "Navigating relationships can be complex. I'm here to guide you through these complexities to help you form healthier connections.",
+      "Past experiences can affect your sleep, confidence, and relationships. Therapy offers a safe, steady way to process those memories and feel more secure again.",
     imageURL:
-      "https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/f53aed66-5bd9-43e0-b00b-3a3537fed68d/ori-song-LPbKfdQJS2E-unsplash.jpg?format=1000w",
+      "https://images.unsplash.com/photo-1533764637442-ef6943191102?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fFBhc3R8ZW58MHx8MHx8fDA%3D",
   },
   {
-    title: "Burnout",
+    title: "Burnout & Stress",
     description:
-      "Feeling overwhelmed by your career is more common than you think. Together, we'll identify strategies to manage and prevent burnout.",
+      "If work pressure or perfectionism has left you exhausted, therapy can help you slow down, set healthy boundaries, and find a more balanced way to live and work.",
     imageURL:
-      "https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/515651b9-4001-47ae-8ca1-2a6ff8f2bef0/ivana-cajina--wn1PECo5-U-unsplash.jpg?format=1000w",
+      "https://images.unsplash.com/photo-1613520439218-a69db537ea1d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN0cmVzc3xlbnwwfHwwfHx8MA%3D%3D",
   },
 ];
 

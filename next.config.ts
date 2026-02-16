@@ -13,6 +13,16 @@ const nextConfig: NextConfig = {
         hostname: "app.squarespacescheduling.com",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "plus.unsplash.com",
+        pathname: "/**",
+      },
     ],
   },
 };

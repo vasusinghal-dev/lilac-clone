@@ -19,16 +19,15 @@ export default function CTA() {
             <h1
               className={`text-3xl sm:text-4xl lg:text-5xl 2xl:text-[52px] font-medium mb-4 lg:mb-6 2xl:mb-8.5 ${fadeInUp}`}
             >
-              Get started today.
+              Start feeling more like yourself again.
             </h1>
 
             <p
               className={`text-base sm:text-lg lg:text-[18px] 2xl:text-[21px] ${fadeIn}`}
             >
-              Ready to take the first step towards a happier, healthier you?
-              <br />
-              Contact me to book your first session. I look forward to starting
-              this therapeutic journey with you.
+              If you’re feeling overwhelmed by anxiety, burnout, or past
+              experiences, therapy can help. Dr. Maya Reynolds offers in-person
+              sessions in Santa Monica and secure telehealth across California.
             </p>
           </div>
 

@@ -14,30 +14,30 @@ export default function BlogSection() {
     {
       id: 1,
       date: "3/11/19",
-      title: "Blog Post One",
+      title: "Why Anxiety Feels So Overwhelming (and What Helps)",
       image:
-        "https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/87fa2310-36df-4a24-a9e9-1b74df73f150/tanya-trukyr-ornZV1YJNNo-unsplash.jpg?format=1500w",
+        "https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/166607b6-21a7-4e30-8c74-9c911c9f33fb/milles-studio-GU-Q4-SQFTg-unsplash.jpg?format=1500w",
     },
     {
       id: 2,
       date: "3/11/19",
-      title: "Blog Post Two",
+      title: "Understanding Burnout in High-Achieving Professionals",
       image:
-        "https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/a77b422e-33ac-47b2-825f-293d33884041/valeriia-miller-5jR4rAMs5tk-unsplash+%281%29.jpg?format=2500w",
+        "https://images.unsplash.com/photo-1613520439218-a69db537ea1d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN0cmVzc3xlbnwwfHwwfHx8MA%3D%3D",
     },
     {
       id: 3,
       date: "3/11/19",
-      title: "Blog Post Three",
+      title: "How Past Experiences Can Affect You Today",
       image:
-        "https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/9f889e1b-ba2b-4a6d-92e9-767dd3db67ae/lilac+template+white+lilac.jpeg?format=2500w",
+        "https://images.unsplash.com/photo-1533764637442-ef6943191102?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fFBhc3R8ZW58MHx8MHx8fDA%3D",
     },
     {
       id: 4,
       date: "3/11/19",
-      title: "Blog Post Four",
+      title: "Simple Ways to Calm Your Mind and Body",
       image:
-        "https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/9a77a6f2-1c50-4582-a5c1-5ec0dc2e94e8/daiga-ellaby-Ct6LBZHaOSc-unsplash.jpg?format=2500w",
+        "https://images.unsplash.com/photo-1533162507191-d90c625b2640?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2FsbXxlbnwwfHwwfHx8MA%3D%3D",
     },
   ];
 

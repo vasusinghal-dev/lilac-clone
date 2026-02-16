@@ -21,8 +21,8 @@ export default function Hero() {
             className={`mx-auto w-full max-w-80 sm:max-w-md lg:max-w-xl 2xl:max-w-179 ${slideIn}`}
           >
             <Image
-              src="https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/08197a74-c045-4a19-a7c9-0f85c1032bc4/daiga-ellaby-M2P08N9zi2k-unsplash.jpg?format=2500w"
-              alt="Hero image"
+              src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGhlcmFweSUyMHJvb218ZW58MHx8MHx8fDA%3D"
+              alt="Calm therapy office environment in Santa Monica"
               width={780}
               height={1050}
               className="w-full h-auto rounded-t-full"
@@ -36,15 +36,20 @@ export default function Hero() {
                 <h1
                   className={`text-3xl sm:text-4xl lg:text-[80px] 2xl:text-[102px] font-medium mb-4 lg:mb-6 2xl:mb-8.5 ${fadeInUp}`}
                 >
-                  Live your life
+                  Anxiety & Trauma Therapy
                   <br />
-                  <div className="mt-1 lg:ml-4 2xl:ml-6">in full bloom</div>
+                  <div className="mt-1 lg:ml-4 2xl:ml-6">
+                    in Santa Monica, CA
+                  </div>
                 </h1>
 
                 <p
                   className={`text-base sm:text-lg lg:text-[18px] 2xl:text-[21px] mb-6 lg:mb-10 2xl:mb-15 lg:ml-4 2xl:ml-7 ${fadeIn}`}
                 >
-                  Therapy for Adults in Minneapolis, MN.
+                  Supportive therapy for adults experiencing anxiety, panic,
+                  burnout, or the lasting effects of past experiences. In-person
+                  sessions in Santa Monica and secure telehealth across
+                  California.
                 </p>
 
                 <Link
@@ -52,7 +57,7 @@ export default function Hero() {
                   className={`px-4 py-2.5 btn btn-primary border flex items-center gap-2 lg:ml-4 2xl:ml-7 ${fadeInUp}`}
                 >
                   <span className="text-[13.5px] font-medium">
-                    CONNECT WITH ME
+                    BOOK A FREE CONSULTATION
                   </span>
                   <svg
                     width="24"
