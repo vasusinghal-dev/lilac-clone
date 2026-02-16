@@ -8,7 +8,7 @@ The goal of Part 1 was to replicate layout, spacing, typography, and responsiven
 
 ## 🌐 Live Demo
 
-👉
+👉 https://nextjs-todo-app-xxol.vercel.app/
 
 ---
 

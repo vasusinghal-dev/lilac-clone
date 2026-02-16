@@ -11,6 +11,10 @@ export default function Header() {
 
   const bgClass = pathname === "/contact" ? "bg-tertiary" : "bg-primary";
 
+  const linkClass = (path: string) =>
+    `text-primary text-[21px] hover:text-accent font-medium py-2 transition-colors duration-200 
+   ${pathname.startsWith(path) ? "underline underline-offset-8 decoration-1" : ""}`;
+
   return (
     <>
       <header className={`sticky top-0 z-50 w-full ${bgClass}`}>
@@ -35,17 +39,11 @@ export default function Header() {
             </Link>
 
             <nav className="hidden lg:flex space-x-15.5 2xl:space-x-20 animate-fade-in-up">
-              <Link
-                href="/blog"
-                className="text-primary text-[21px] hover:text-accent font-medium py-2 transition-colors duration-200"
-              >
+              <Link href="/blog" className={linkClass("/blog")}>
                 Blog
               </Link>
 
-              <Link
-                href="/contact"
-                className="text-primary text-[21px] hover:text-accent font-medium py-2 transition-colors duration-200"
-              >
+              <Link href="/contact" className={linkClass("/contact")}>
                 Contact
               </Link>
             </nav>
