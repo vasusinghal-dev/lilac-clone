@@ -1,14 +1,19 @@
-# Lilac Template Clone – Part 1
+# Grow My Therapy Internship Assignment – Lilac Template Clone & Redesign
 
-This project is a pixel-accurate clone of the homepage from the Lilac Squarespace template, built as part of the Grow My Therapy internship assignment.
+This project was built as part of the Grow My Therapy Front-End Developer Internship selection process.
 
-The goal of Part 1 was to replicate layout, spacing, typography, and responsiveness exactly.
+The assignment included:
+
+• **Part 1:** Pixel-accurate homepage clone  
+• **Part 2:** Full redesign using Dr. Maya Reynolds’ therapist profile  
+• **Part 3:** Adding a custom “Our Office” section
 
 ---
 
 ## 🌐 Live Demo
 
-👉 https://nextjs-todo-app-xxol.vercel.app/
+👉 Final Redesign: https://nextjs-todo-app-xxol-git-rede-81153a-vasudevs-projects-7731967e.vercel.app/
+👉 Part 1 Clone: https://nextjs-todo-app-xxol.vercel.app/
 
 ---
 
@@ -16,40 +21,73 @@ The goal of Part 1 was to replicate layout, spacing, typography, and responsiven
 
 👉 https://github.com/vasusinghal-dev/lilac-clone
 
+Branches:
+
+- `main` → Part 1 Clone
+- `redesign-maya` → Part 2 + Part 3 Redesign
+
 ---
 
 ## 🛠️ Tech Stack
 
 - Next.js (App Router)
 - Tailwind CSS
-- Local Fonts
-- Responsive Design with Flexbox & Grid
+- Responsive Design (Flexbox + Grid)
+- Local & Google Fonts
+- Component-Based Architecture
 
 ---
 
-## ✅ Part 1 Requirements Covered
+## ✅ Part 1 – Clone
 
-- ✔ Pixel-accurate homepage layout
-- ✔ Responsive across desktop, tablet, mobile
-- ✔ Matching typography and spacing
-- ✔ Reusable color and theme variables
-- ✔ Clean component-based structure
+- Pixel-accurate homepage layout
+- Responsive across desktop, tablet, mobile
+- Matching typography and spacing
+- Reusable theme variables
+- Clean component structure
+
+---
+
+## 🎨 Part 2 – Redesign
+
+Redesigned homepage using **Dr. Maya Reynolds, PsyD** profile as the single source of truth.
+
+### Changes Made:
+
+- New calm therapy-focused color palette
+- Updated typography
+- All copy rewritten based on therapist profile
+- SEO-friendly headings with Santa Monica location
+- Updated images matching therapy brand tone
+- Consistent theme applied across sections
+
+---
+
+## 🏡 Part 3 – Our Office Section
+
+Added a new custom section highlighting:
+
+- Santa Monica office location
+- Real office photos
+- Warm and welcoming therapy environment
+- In-person and telehealth availability
 
 ---
 
 ## 🎯 Focus Areas
 
-- Consistent spacing system
-- Semantic HTML structure
-- Reusable Tailwind utility classes
-- Maintainable theme setup using CSS variables
+- UI accuracy & visual polish
+- Readable, patient-friendly copywriting
+- Consistent spacing & typography
+- Responsive design
+- Real-world therapist website design principles
 
 ---
 
 ## 🚀 How to Run Locally
 
 ```bash
-git clone https://github.com/your-username/lilac-clone
+git clone https://github.com/vasusinghal-dev/lilac-clone
 cd lilac-clone
 npm install
 npm run dev
@@ -61,12 +99,14 @@ Then open [http://localhost:3000](http://localhost:3000)
 
 ## 📌 Notes
 
-- Fonts and layout tested across multiple screen sizes.
-- No design changes were made in Part 1 to preserve cloning accuracy.
+- All copy derived from the provided therapist profile.
+- Images selected to match calm therapy design aesthetic.
+- Assignment completed within internship guidelines.
 
 ---
 
 ## 👤 Author
 
-Vasu Singhal <br>
+**Vasu Singhal**
 Front-End Developer
+Learning MERN Stack + UI/UX + AI 🚀

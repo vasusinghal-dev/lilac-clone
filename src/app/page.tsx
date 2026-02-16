@@ -6,6 +6,7 @@ import About from "../components/main/About";
 import FAQ from "../components/main/FAQ";
 import Profession from "../components/main/Profession";
 import CTA from "../components/main/CTA";
+import OurOffice from "../components/main/OurOffice";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Specialties />
       <Symptoms />
       <About />
+      <OurOffice />
       <FAQ />
       <Profession />
       <CTA />
