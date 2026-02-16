@@ -1,0 +1,198 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg-primary: #fbf6f1;
+  --color-bg-secondary: #e5e0da;
+  --color-bg-tertiary: #c2bfcb;
+  --color-bg-accent: #7e7b46;
+  --color-bg-dark: #0e0e0e;
+
+  --color-text-primary: #223614;
+  --color-text-secondary: #c2bfcb;
+  --color-text-light: #fbf6f1;
+  --color-text-dark: #0e0e0e;
+}
+
+@theme {
+  --font-family-sans: var(--font-gopher), system-ui, -apple-system, sans-serif;
+  --font-family-helvetica: var(--font-HelveticaNeue), system-ui, sans-serif;
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
+    font-family: var(--font-family-sans);
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  img,
+  picture,
+  svg,
+  video {
+    display: block;
+    max-width: 100%;
+  }
+}
+
+@layer utilities {
+  .bg-primary {
+    background-color: var(--color-bg-primary);
+  }
+
+  .bg-secondary {
+    background-color: var(--color-bg-secondary);
+  }
+
+  .bg-tertiary {
+    background-color: var(--color-bg-tertiary);
+  }
+
+  .bg-accent {
+    background-color: var(--color-bg-accent);
+  }
+
+  .bg-dark {
+    background-color: var(--color-bg-dark);
+  }
+
+  .bg-text-primary {
+    background-color: var(--color-text-primary);
+  }
+
+  .text-primary {
+    color: var(--color-text-primary);
+  }
+
+  .text-secondary {
+    color: var(--color-text-secondary);
+  }
+
+  .text-light {
+    color: var(--color-text-light);
+  }
+
+  .text-dark {
+    color: var(--color-text-dark);
+  }
+
+  .border-secondary {
+    border: 1px solid var(--color-text-secondary);
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  .font-helvetica {
+    font-family: var(--font-family-helvetica);
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fadeIn var(--animation-duration, 0.8s) ease-in-out
+      var(--animation-delay, 0s) forwards;
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp var(--animation-duration, 0.8s) ease-out
+      var(--animation-delay, 0s) forwards;
+  }
+
+  .animate-slide-in-up {
+    animation: slideInUp var(--animation-duration, 0.4s)
+      cubic-bezier(0.2, 0.8, 0.2, 1) var(--animation-delay, 0s) forwards;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply border-0 transition-all duration-1000 
+           flex items-center justify-center gap-2 ease-initial;
+  }
+
+  .btn-primary {
+    background-color: transparent;
+    color: var(--color-text-primary);
+  }
+
+  .btn-primary:hover {
+    background-color: var(--color-text-primary);
+    color: var(--color-text-light);
+  }
+
+  .btn-secondary {
+    background-color: transparent;
+    color: var(--color-text-light);
+  }
+
+  .btn-secondary:hover {
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
+  }
+}
