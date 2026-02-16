@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lilac Template Clone – Part 1
 
-## Getting Started
+This project is a pixel-accurate clone of the homepage from the Lilac Squarespace template, built as part of the Grow My Therapy internship assignment.
 
-First, run the development server:
+The goal of Part 1 was to replicate layout, spacing, typography, and responsiveness exactly.
+
+---
+
+## 🌐 Live Demo
+
+👉
+
+---
+
+## 📂 GitHub Repository
+
+👉 https://github.com/vasusinghal-dev/lilac-clone
+
+---
+
+## 🛠️ Tech Stack
+
+- Next.js (App Router)
+- Tailwind CSS
+- Local Fonts
+- Responsive Design with Flexbox & Grid
+
+---
+
+## ✅ Part 1 Requirements Covered
+
+- ✔ Pixel-accurate homepage layout
+- ✔ Responsive across desktop, tablet, mobile
+- ✔ Matching typography and spacing
+- ✔ Reusable color and theme variables
+- ✔ Clean component-based structure
+
+---
+
+## 🎯 Focus Areas
+
+- Consistent spacing system
+- Semantic HTML structure
+- Reusable Tailwind utility classes
+- Maintainable theme setup using CSS variables
+
+---
+
+## 🚀 How to Run Locally
 
 ```bash
+git clone https://github.com/your-username/lilac-clone
+cd lilac-clone
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📌 Notes
 
-## Learn More
+- Fonts and layout tested across multiple screen sizes.
+- No design changes were made in Part 1 to preserve cloning accuracy.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👤 Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Vasu Singhal <br>
+Front-End Developer
