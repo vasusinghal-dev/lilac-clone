@@ -12,8 +12,8 @@ The assignment included:
 
 ## 🌐 Live Demo
 
-👉 Final Redesign: https://nextjs-todo-app-xxol-git-rede-81153a-vasudevs-projects-7731967e.vercel.app/
-👉 Part 1 Clone: https://nextjs-todo-app-xxol.vercel.app/
+👉 Final Redesign: https://nextjs-todo-app-xxol.vercel.app/ <br>
+👉 Part 1 Clone: https://nextjs-todo-app-xxol-h69j5gca9-vasudevs-projects-7731967e.vercel.app/
 
 ---
 
